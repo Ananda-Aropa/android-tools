@@ -60,6 +60,7 @@ jobs:
           distro: debian:unstable-slim
           arch: amd64
           docker_arch_specific: true
+          docker_archive: true
 
       - name: Extract artifact
         run: unzip -o built-deb-files.zip
